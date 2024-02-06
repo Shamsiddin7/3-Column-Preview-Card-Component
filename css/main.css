@@ -1,0 +1,123 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-orange: #E28625;
+    --primary-light-blue: #006971;
+    --primary-blue: #004140;
+    --bigshouldersdisplay: "BigShouldersDisplay";
+    --lexenddeca: "LexendDeca";
+}
+
+.body {
+    background-color: wheat;
+}
+
+.main {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.card {
+    padding: 48px;
+    width: 307px;
+}
+
+.car-1 {
+    background-color: var(--primary-orange);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.car-2 {
+    background-color: var(--primary-light-blue);
+    border-radius: none;
+}
+
+.car-3 {
+    background-color: var(--primary-blue);
+    border-radius: 0px 8px 8px 0px; 
+}
+
+.card-img {
+    width: 64px;
+    height: 40px;
+}
+
+.card-title {
+    max-width: 68px;
+    width: 100%;
+    height: 48px;
+    color: #F2F2F2;
+    font-family: var(--bigshouldersdisplay);
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 35px;
+}
+
+.card-desc {
+    max-width: 212px;
+    width: 100%;
+    color: #FFF;
+    font-family: var(--lexenddeca);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 25px;
+    padding-bottom: 94px;
+}
+
+.all-btn {
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    background: #F2F2F2;
+    color: var(--primary-orange);
+    font-family: var(--lexenddeca);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 11px 31.5px;
+    transition: .5s;
+}
+
+.car-2-btn{
+    color: var(--primary-light-blue);
+}
+
+.car-3-btn{
+    color: var(--primary-blue);
+}
+
+.all-btn:hover{
+    background: none;
+    border: 2px solid #F2F2F2;
+    color: #F2F2F2;
+}
+
+.all-btn:active{
+    background-color: #F2F2F2;
+    color: var(--primary-orange);
+    opacity: .6;
+}
+
+.car-2-btn:active{
+    color: var(--primary-light-blue);
+}
+
+.car-3-btn:active{
+    color: var(--primary-blue);
+}
